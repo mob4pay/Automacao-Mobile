@@ -1,0 +1,35 @@
+{
+  "pagamentos": [
+    {
+      "id": 1,
+      "tipo": "boleto",
+      "codigoBarras": "12345678901234567890123456789012",
+      "valor": "100.00",
+      "descricao": "Pagamento de conta de luz",
+      "vencimento": "31/12/2025"
+    },
+    {
+      "id": 2,
+      "tipo": "boleto",
+      "codigoBarras": "98765432109876543210987654321098",
+      "valor": "250.50",
+      "descricao": "Fatura de cartão de crédito",
+      "vencimento": "15/01/2026"
+    },
+    {
+      "id": 3,
+      "tipo": "pix",
+      "chavePix": "joao.silva@teste.com",
+      "valor": "50.00",
+      "descricao": "Transferência para amigo"
+    },
+    {
+      "id": 4,
+      "tipo": "agendado",
+      "codigoBarras": "11111111111111111111111111111111",
+      "valor": "300.00",
+      "descricao": "Aluguel",
+      "dataAgendamento": "05/01/2026"
+    }
+  ]
+}

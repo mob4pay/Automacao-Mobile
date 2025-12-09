@@ -1,0 +1,13 @@
+appId: com.app.mobile
+
+tags:
+  - LOGIN_002
+
+flow:
+  - runFlow:
+      file: ../../include/actions/login-actions.yml
+      env:
+        email: "usuario@invalido.com"
+        senha: "senhaErrada123"
+
+  - assertVisible: "Credenciais inválidas"

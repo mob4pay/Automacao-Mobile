@@ -1,0 +1,15 @@
+# Variáveis do ambiente QA
+
+ambiente: "qa"
+baseUrl: "https://qa.app.com.br"
+apiUrl: "https://api-qa.app.com.br"
+
+usuarioPadrao:
+  email: "usuario.qa@teste.com"
+  senha: "SenhaQA@123"
+  nome: "Usuário QA"
+
+pagamento:
+  codigoBarras: "12345678901234567890123456789012"
+  valor: "100.00"
+  dataFutura: "31/12/2025"

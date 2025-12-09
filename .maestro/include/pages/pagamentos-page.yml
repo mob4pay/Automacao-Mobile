@@ -1,0 +1,9 @@
+id:
+  input_codigo_barras: "barcodeInput"
+  btn_escanear: "scanButton"
+  input_valor: "amountInput"
+  input_data_agendamento: "scheduleDateInput"
+  btn_confirmar: "confirmButton"
+  btn_cancelar: "cancelButton"
+  txt_sucesso: "successMessage"
+  card_comprovante: "receiptCard"

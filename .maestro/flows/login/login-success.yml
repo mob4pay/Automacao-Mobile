@@ -1,0 +1,14 @@
+appId: com.app.mobile
+
+tags:
+  - LOGIN_001
+  - smoke
+
+flow:
+  - runFlow:
+      file: ../../include/actions/login-actions.yml
+      env:
+        email: ${usuarioPadrao.email}
+        senha: ${usuarioPadrao.senha}
+
+  - assertVisible: "Bem-vindo"

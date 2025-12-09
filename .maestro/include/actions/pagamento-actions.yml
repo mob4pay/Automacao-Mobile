@@ -1,0 +1,22 @@
+actions:
+  realizar-pagamento:
+    - tapOn: ${btn_pagamentos}
+    - waitForAnimationToEnd
+    - tapOn: ${input_codigo_barras}
+    - inputText: ${codigo}
+    - tapOn: ${input_valor}
+    - inputText: ${valor}
+    - tapOn: ${btn_confirmar}
+    - waitForAnimationToEnd
+
+  agendar-pagamento:
+    - tapOn: ${btn_pagamentos}
+    - waitForAnimationToEnd
+    - tapOn: ${input_codigo_barras}
+    - inputText: ${codigo}
+    - tapOn: ${input_valor}
+    - inputText: ${valor}
+    - tapOn: ${input_data_agendamento}
+    - inputText: ${dataAgendamento}
+    - tapOn: ${btn_confirmar}
+    - waitForAnimationToEnd

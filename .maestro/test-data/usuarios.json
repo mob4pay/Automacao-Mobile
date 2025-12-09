@@ -1,0 +1,31 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "email": "joao.silva@teste.com",
+      "senha": "Senha@123",
+      "cpf": "123.456.789-00",
+      "telefone": "(11) 98765-4321",
+      "tipo": "padrao"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Santos",
+      "email": "maria.santos@teste.com",
+      "senha": "Maria@456",
+      "cpf": "987.654.321-00",
+      "telefone": "(11) 91234-5678",
+      "tipo": "premium"
+    },
+    {
+      "id": 3,
+      "nome": "Pedro Costa",
+      "email": "pedro.costa@teste.com",
+      "senha": "Pedro@789",
+      "cpf": "456.789.123-00",
+      "telefone": "(21) 99876-5432",
+      "tipo": "bloqueado"
+    }
+  ]
+}

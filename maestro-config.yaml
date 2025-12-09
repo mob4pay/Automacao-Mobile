@@ -1,0 +1,41 @@
+# Configuração global do Maestro
+
+# Timeout padrão para operações (em milissegundos)
+appTimeout: 30000
+
+# Timeout para aguardar elementos visíveis
+waitTimeout: 10000
+
+# Número de tentativas em caso de falha
+retryAttempts: 3
+
+# Desabilitar animações durante os testes (recomendado)
+disableAnimations: true
+
+# Estratégia de input (padrão: adb)
+inputStrategy: adb
+
+# Diretórios do projeto
+directories:
+  flows: .maestro/flows
+  includes: .maestro/include
+  testData: .maestro/test-data
+  reports: .maestro/reports
+  screenshots: .maestro/screenshots
+
+# Configurações de screenshot
+screenshots:
+  onFailure: true
+  onSuccess: false
+  quality: 80
+
+# Configurações de log
+logging:
+  level: info
+  verbose: false
+
+# Configurações de retry
+retry:
+  enabled: true
+  maxAttempts: 3
+  delayBetweenAttempts: 2000

@@ -1,0 +1,8 @@
+actions:
+  realizar-login:
+    - tapOn: ${input_email}
+    - inputText: ${email}
+    - tapOn: ${input_senha}
+    - inputText: ${senha}
+    - tapOn: ${btn_login}
+    - waitForAnimationToEnd

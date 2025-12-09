@@ -1,0 +1,22 @@
+appId: com.app.mobile
+
+tags:
+  - PAGAMENTO_002
+
+flow:
+  - runFlow:
+      file: ../../include/actions/login-actions.yml
+      env:
+        email: ${usuarioPadrao.email}
+        senha: ${usuarioPadrao.senha}
+
+  - assertVisible: "Bem-vindo"
+
+  - runFlow:
+      file: ../../include/actions/pagamento-actions.yml
+      env:
+        codigo: ${pagamento.codigoBarras}
+        valor: ${pagamento.valor}
+        dataAgendamento: ${pagamento.dataFutura}
+
+  - assertVisible: "Pagamento agendado"

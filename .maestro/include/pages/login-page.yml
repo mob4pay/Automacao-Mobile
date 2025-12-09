@@ -1,0 +1,6 @@
+id:
+  input_email: "emailInput"
+  input_senha: "passwordInput"
+  btn_login: "loginButton"
+  btn_esqueci_senha: "forgotPasswordButton"
+  link_cadastro: "registerLink"

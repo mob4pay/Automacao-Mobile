@@ -1,0 +1,15 @@
+# Variáveis do ambiente LOCAL
+
+ambiente: "local"
+baseUrl: "http://localhost:3000"
+apiUrl: "http://localhost:8080/api"
+
+usuarioPadrao:
+  email: "usuario.local@teste.com"
+  senha: "SenhaLocal@123"
+  nome: "Usuário Local"
+
+pagamento:
+  codigoBarras: "11111111111111111111111111111111"
+  valor: "50.00"
+  dataFutura: "31/12/2025"

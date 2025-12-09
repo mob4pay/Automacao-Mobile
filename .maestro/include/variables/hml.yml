@@ -1,0 +1,15 @@
+# Variáveis do ambiente HML (Homologação)
+
+ambiente: "hml"
+baseUrl: "https://hml.app.com.br"
+apiUrl: "https://api-hml.app.com.br"
+
+usuarioPadrao:
+  email: "usuario.hml@teste.com"
+  senha: "SenhaHML@123"
+  nome: "Usuário HML"
+
+pagamento:
+  codigoBarras: "98765432109876543210987654321098"
+  valor: "150.00"
+  dataFutura: "31/12/2025"

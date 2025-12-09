@@ -1,0 +1,11 @@
+# Variáveis globais compartilhadas entre todos os ambientes
+
+appTimeout: 30000
+waitTimeout: 10000
+retryAttempts: 3
+
+# IDs de elementos compartilhados (importar pages)
+pages:
+  login: "../../include/pages/login-page.yml"
+  home: "../../include/pages/home-page.yml"
+  pagamentos: "../../include/pages/pagamentos-page.yml"

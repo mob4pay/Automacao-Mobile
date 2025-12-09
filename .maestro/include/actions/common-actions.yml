@@ -1,0 +1,20 @@
+actions:
+  scroll-ate-fim:
+    - repeat:
+        times: 5
+        commands:
+          - scroll
+
+  aguardar-elemento:
+    - waitForAnimationToEnd
+    - wait:
+        visible: ${elemento}
+        timeout: 10000
+
+  tirar-screenshot:
+    - takeScreenshot: ${nomeArquivo}
+
+  fechar-modal:
+    - tapOn:
+        text: "Fechar"
+    - waitForAnimationToEnd

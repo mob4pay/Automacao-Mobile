@@ -1,0 +1,7 @@
+id:
+  txt_bem_vindo: "welcomeText"
+  btn_menu: "menuButton"
+  btn_pagamentos: "paymentsButton"
+  btn_transferencias: "transfersButton"
+  btn_extrato: "statementButton"
+  txt_saldo: "balanceText"

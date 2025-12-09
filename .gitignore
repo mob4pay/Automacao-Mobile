@@ -1,0 +1,40 @@
+# Arquivos de ambiente
+.env
+.env.local
+
+# Relatórios e evidências
+.maestro/reports/
+.maestro/screenshots/
+*.log
+logcat.txt
+
+# Node modules (se usar)
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+
+# APKs e arquivos de build
+*.apk
+*.aab
+*.ipa
+
+# Credenciais
+credentials.json
+secrets.yaml
